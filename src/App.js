@@ -1,24 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import Cards from "./components/cards";
+import CardData from "./components/cardsapi"
+import Navbar from './components/navbar';
+
+function handleCard(data){
+  return (
+    <Cards 
+      key={data.id}
+      img={data.image}
+      url={data.link}
+    />
+  )
+}
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className='potfolio-heading'>
+        <h1>PORTFOLIO</h1>
+      </div>
+      <Navbar />
+      <div className='portfolio-cards'>
+        {CardData.map(handleCard)}
+      </div>
+    </>
   );
 }
 

@@ -2,42 +2,130 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <title>DhyanuDev</title>
+    <link rel="stylesheet" href="../src/index.css">
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+      <section id="home">
+      <nav>
+            <ul style="margin-top: 0px; margin-bottom: 0px;">
+              <li class="logo">
+                <img src="file:///c%3A/Users/dhyan/OneDrive/Desktop/Portfolio/portfolio/src/photos/young-man.png" alt="">
+                <p class="logo-name">DhyanuDev</p>
+              </li>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+      </nav>
+      <div id="home" class="home">
+        <div class="home-top">
+        <div class="profile">
+          <h2>Hello, I'm</h2>
+          <h1>Dhyanu</h1>
+          <h3><span class="A" style="font-size: 24px; font-family: sans-serif;">A </span><span>Web Developer</span></h3>
+          <button class="hire" id="#contact"><a href="#contact" style="font-size: 20px;" color="white">Contact Me</a></button>
+          <a href="#portfolio" style="font-weight: bold ;">View My PORTFOLIO</a>
+        </div>
+        <div class="main-photo-section">
+          <img src="https://media.licdn.com/dms/image/D4D03AQH46FFwcqNflw/profile-displayphoto-shrink_800_800/0/1694082414458?e=1700092800&v=beta&t=bEWyB_LDXGUo7P4S-1mXWc18Y21bkCt9yHitumEUjXE" alt="Dhyanu's Photo">
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <div id="about-section" class="about-section">
+        <div class="about-photo-section">
+          <img class="first-image" src="https://images.pexels.com/photos/7989027/pexels-photo-7989027.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+          <img class="second-image" src="https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=600">
+        </div>
+        <div class="about-text-section">
+          <h3 style="color: #5A7FFB;">ABOUT ME</h3>
+          <p>I am a creative developer from the state of Delhi, India and I am excited about creating stunning websites. As a frontend developer, my expertise lies in creating seamless and intuitive user experiences. I specialize in using cutting-edge technologies to produce high-quality web applications. Specifically, I have vast knowledge of ReactJS and NodeJS, which allow me to build complex and dynamic applications with ease.</p>
+          <div class="about-grid-section">
+            <div>
+              <h3>Name</h3>
+              <p>Dhyanu</p>
+            </div>
+            <div>
+              <h3>Education</h3>
+              <p>BTech IT from USICT, GGSIPU</p>
+            </div>
+            <div>
+              <h3>Email</h3>
+              <p>dhyanufrenjiya@gmail.com</p>
+            </div>
+            <div>
+              <h3>Employment</h3>
+              <p>Open</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="things-i-know">
+      <div class="logos">
+        <div class="logos-slide">
+          <img src="./photos/html5.svg" />
+          <img src="./photos/css.svg" />
+          <img src="./photos/javascript.svg" />
+          <img src="./photos/react.svg" />
+          <img src="./photos/node-js (1).svg" />
+          <img src="./photos/express.svg" />
+          <img src="./photos/mongodb.svg" />
+          <img src="./photos/wordpress.svg" />
+          <div class="logos-text">
+            <span class="span1">HTML5</span>
+            <span class="span2">CSS</span>
+            <span class="span3">JavaScript</span>
+            <span class="span4">ReactJs</span>
+            <span class="span5">Nodejs</span>
+            <span class="span6">Express</span>
+            <span class="span7">MongoDB</span>
+            <span class="span8">WordPress</span>
+          </div>
+        </div>
+      </div>       
+    </div>
+    <section id="portfolio">
+      <div id="#Portfolio" class="portfolio">
+        <div id="root"></div>
+      </div>
+    </section>
+    <section id="contact">
+      <div id="getintouch-section" class="getintouch-section">
+        <h2>GET IN TOUCH</h2>
+        <div class="getintouch-section-contact">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d14009.53404560735!2d77.04493215!3d28.6182658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjjCsDM2JzUzLjMiTiA3N8KwMDInMDQuOSJF!5e0!3m2!1sen!2sin!4v1694970842738!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <div class="contact">
+            <h1>Contact Me</h1>
+            <input class="text" placeholder="Name*">
+            <input class="text" placeholder="Email*">
+            <textarea class="message" placeholder="Your Message*"></textarea>
+            <button class="hire" type="submit">Send Message</button>
+          </div> 
+        </div>
+      </div>
+    </section>
+    
+    <div class="footer-section">
+      <a href="#home"><button>
+        <img src="./photos/go-up.png" alt="" width="30px">
+      </button></a>
+      <p class="logo-name">DhyanuDev</p>
+      <div class="footer-section-photos">
+        <a href="https://www.instagram.com/dhyanu2216/"><img src="./photos/instagram-logo.png"></a>
+        <a href="https://www.linkedin.com/in/dhyanu/"><img src="./photos/linkdn-logo.png"></a>
+        <a href="https://github.com/Dhyanu22"><img src="./photos/github-logo.png"></a>
+      </div>
+      <p class="copyright">All rights reserved © 2023 Dhyanu</p>
+    </div> 
+    
+  
+    <script>
+      var copy = document.querySelector(".logos-slide").cloneNode(true);
+      document.querySelector(".logos").appendChild(copy);
+    </script>  
+    <script src="index.js"></script>
   </body>
 </html>

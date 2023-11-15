@@ -1,13 +1,393 @@
+html {
+  scroll-behavior: smooth;
+  }
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Poppins', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+nav {
+  width: 100%;
+  height: 70px;
+  color: #fff;
+  position: absolute;
+  right: 120px;
+  font-size: 20px;
+  margin-top: 25px;
+  transition: background-color 0.3s;
+}
+
+.logo {
+  position: absolute;
+  left: 210px;
+  top: -23px;
+}
+
+nav ul {
+  text-align: right;
+  list-style-type: none;
+  padding: 23px 20px;
+}
+
+nav li {
+  display: inline;
+  margin-left: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+.active {
+  color: #5A7FFB;
+}
+
+.fixed {
+    background-color: #222222;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    right: 0px;
+    padding-right: 120px;
+    margin: 0;
+}
+
+.home{
+  background-image: url("https://wavang.com/image/hero_pattern.jpg");
+  color: white;
+  padding: 23px 0;
+  height: 120vh;
+}
+
+.home-top{
+  display: flex;
+}
+
+.logo-name{
+  font-size: 24px;
+  color: white;
+}
+
+.profile{
+  display: block;
+  padding: 195px 0 0 120px;
+}
+
+.profile h2{
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+
+.profile h1{
+  font-size: 105px;
+  margin: 0px;
+}
+
+.profile h3 span{
+  font-size: 30px;
+}
+
+.A{
+  font-size: 24px;
+}
+
+.hire{
+  margin: 20px 20px 0 0 ;
+  width: 150px;
+  height: 55px;
+  background-color: #5A7FFB;
+  transition: 0ms;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.hire:hover{
+  background-color: rgb(65, 65, 236);
+  transition-duration: 200ms;
+}
+
+.hire a{
+  color: white;
+}
+
+.main-photo-section img {
+  width: 450px;
+  height: 600px;
+  position: absolute;
+  right: 300px;
+  top: 200px;
+  border-top-left-radius: 40%;
+  border-top-right-radius: 40%;
+  border-bottom-left-radius: 40%;
+  border-bottom-right-radius: 40%;
+}
+
+.about-section{
+  display: flex;
+  padding: 120px;
+  background-color: #F2F5FB;
+  height: 70vh;
+}
+
+.about-photo-section{
+  width: 51%;
+}
+
+.first-image{
+  position: relative;
+  width: 400px;
+  height: 429px;
+  border-radius: 10px;
+  left: 100px;
+  transform: scaleX(-1);
+}
+
+.second-image{
+  position: relative;
+  width: 300px;
+  height: 329px;
+  border-radius: 10px;
+  bottom: 200px;
+}
+
+.about-text-section{
+  width: 49%;
+}
+
+.about-text-section h3{
+  font-weight: bolder;
+}
+
+.about-text-section p{
+  color: #615978;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.about-grid-section{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.about-grid-section h3{
+  margin: 0;
+}
+
+.things-i-know{
+  width: 100%;
+  height: 275px;
+  background-color: #1A2540;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.logos {
+  overflow: hidden;
+  padding: 60px 0;
+  white-space: nowrap;
+  position: relative;
+}
+
+.logos:before,
+.logos:after {
+  position: absolute;
+  top: 10px;
+  width: 225px;
+  height: 285px;
+  content: "";
+  z-index: 2;
+}
+
+.logos:before {
+  left: 0;
+  background: linear-gradient(to left, #1A2540, #1A2540);
+}
+
+.logos:after {
+  right: 0;
+  background: linear-gradient(to right, #1A2540, #1A2540);
+}
+
+.logos:hover .logos-slide {
+  animation-play-state: paused;
+}
+
+.logos-slide {
+  display: inline-block;
+  animation: 35s slide infinite linear;
+}
+
+.logos-slide img {
+  width: 80px;
+  height: 80px;
+  margin: 0 70px;
+  border-radius: 8px;
+}
+
+.logos-text{
+  padding-top: 20px;
+  font-size: larger;
+  font-weight: 500;
+  color: white;
+}
+
+.logos-text span{
+  width: 80px;
+  position: relative;
+  margin: 0px 83px;
+}
+
+.logos-text .span2{
+  margin-right: 65px;
+}
+
+.logos-text .span3{
+  margin-right: 58px;
+}
+
+.logos-text .span4{
+  margin-right: 62px;
+}
+
+.logos-text .span5{
+  margin-right: 70px;
+}
+
+.logos-text .span6{
+  margin-right: 66px;
+}
+
+.logos-text .span7{
+  margin-right: 68px;
+}
+
+.logos-text .span8{
+  margin-right: 70px;
+}
+
+.portfolio{
+  padding: 120px;
+}
+
+.getintouch-section h2{
+  text-align: center;
+  margin-bottom: 90px;
+}
+
+/* .getintouch-section h3 ::before{
+  display: inline-block;
+  content: "";
+  width: 0;
+  height: 0;
+  border: 8px solid transparent;
+  border-bottom-color: solid #5A7FFB;
+}
+
+.getintouch-section h3 :after{
+  display: inline-block;
+  content: "";
+  width: 0;
+  height: 0;
+  border: 8px solid transparent;
+  border-bottom-color: solid #5A7FFB;
+} */
+
+.getintouch-section{
+  padding-top: 70px;
+}
+
+.getintouch-section h2{
+  font-size: 28px;
+  font-weight: 750;
+}
+
+.getintouch-section-contact{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0 120px 120px 120px;
+}
+
+.getintouch-section-contact iframe{
+  width: 600px;
+  height: 450px;
+  margin-right: 50px;
+}
+
+.contact h1{
+  margin: 0 0 40px 0;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.message{
+  width: 570px;
+  height: 180px;
+  padding: 15px;
+  border: 1px solid #615978;
+  border-radius: 5px;
+}
+
+.text{
+  padding: 0 10px;
+  width: 270px;
+  height: 40px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #615978;
+  border-radius: 5px;
+}
+
+.contact button{
+  width: 200px;
+  border-radius: 5px;
+}
+
+.footer-section{
+  height: 360px;
+  background-image: url("https://img.freepik.com/free-vector/blue-data-technology-background-vector-with-binary-code_53876-110871.jpg");
+  text-align: center;
+  padding: 40px;
+}
+
+.footer-section-photos{
+  display: flex;
+  padding-left: 650px;
+  margin: 100px 0 100px 0;
+}
+
+.footer-section-photos img{
+  width: 25px;
+  height: 25px;
+  margin-right: 30px;
+}
+
+.copyright{
+  font-size: 18px;
+  color: #615978;
+  padding-left: 10px;
+}
+
+.footer-section a button{
+  background-color: #5A7FFB;
+  border: none;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  position: relative;
+  left: 630px;
+  bottom: 70px;
 }
