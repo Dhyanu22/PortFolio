@@ -9,6 +9,7 @@ function handleCard(data){
       key={data.id}
       img={data.image}
       url={data.link}
+      name={data.name}
     />
   )
 }

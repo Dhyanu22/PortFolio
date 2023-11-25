@@ -60,7 +60,7 @@ nav a {
   background-image: url("https://wavang.com/image/hero_pattern.jpg");
   color: white;
   padding: 23px 0;
-  height: 120vh;
+  height: 110vh;
 }
 
 .home-top{
@@ -121,8 +121,8 @@ nav a {
   width: 450px;
   height: 600px;
   position: absolute;
-  right: 300px;
-  top: 200px;
+  right: 120px;
+  top: 150px;
   border-top-left-radius: 40%;
   border-top-right-radius: 40%;
   border-bottom-left-radius: 40%;
