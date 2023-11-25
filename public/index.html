@@ -29,7 +29,7 @@
           <a href="#portfolio" style="font-weight: bold ;">View My PORTFOLIO</a>
         </div>
         <div class="main-photo-section">
-          <img src="https://media.licdn.com/dms/image/D4D03AQH46FFwcqNflw/profile-displayphoto-shrink_800_800/0/1694082414458?e=1700092800&v=beta&t=bEWyB_LDXGUo7P4S-1mXWc18Y21bkCt9yHitumEUjXE" alt="Dhyanu's Photo">
+          <img src="https://i.imgur.com/4JnyPxR.jpg" alt="Dhyanu's Photo">
         </div>
       </div>
     </section>
@@ -99,9 +99,9 @@
           <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d14009.53404560735!2d77.04493215!3d28.6182658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjjCsDM2JzUzLjMiTiA3N8KwMDInMDQuOSJF!5e0!3m2!1sen!2sin!4v1694970842738!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           <div class="contact">
             <h1>Contact Me</h1>
-            <input class="text" placeholder="Name*">
-            <input class="text" placeholder="Email*">
-            <textarea class="message" placeholder="Your Message*"></textarea>
+            <input class="text" placeholder="Name*" id="Name">
+            <input class="text" placeholder="Email*" id="Email">
+            <textarea class="message" placeholder="Your Message*" id="Message"></textarea>
             <button class="hire" type="submit">Send Message</button>
           </div> 
         </div>
@@ -125,7 +125,8 @@
     <script>
       var copy = document.querySelector(".logos-slide").cloneNode(true);
       document.querySelector(".logos").appendChild(copy);
-    </script>  
+    </script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="index.js"></script>
   </body>
 </html>
