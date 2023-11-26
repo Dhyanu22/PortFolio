@@ -9,30 +9,30 @@ body {
 
 nav {
   width: 100%;
-  height: 70px;
+  height: 4.375rem;
   color: #fff;
   position: absolute;
-  right: 120px;
-  font-size: 20px;
-  margin-top: 25px;
+  right: 7.5rem;
+  font-size: 1.25rem;
+  margin-top: 1.5625rem;
   transition: background-color 0.3s;
 }
 
 .logo {
   position: absolute;
-  left: 210px;
-  top: -23px;
+  left: 13.125rem;
+  top: -1.4375rem;
 }
 
 nav ul {
   text-align: right;
   list-style-type: none;
-  padding: 23px 20px;
+  padding: 1.4375rem 1.25rem;
 }
 
 nav li {
   display: inline;
-  margin-left: 30px;
+  margin-left: 1.875rem;
 }
 
 nav a {
@@ -51,15 +51,15 @@ nav a {
     position: fixed;
     width: 100%;
     z-index: 3;
-    right: 0px;
-    padding-right: 120px;
+    right: 0rem;
+    padding-right: 7.5rem;
     margin: 0;
 }
 
 .home{
   background-image: url("https://wavang.com/image/hero_pattern.jpg");
   color: white;
-  padding: 23px 0;
+  padding: 1.4375rem 0;
   height: 110vh;
 }
 
@@ -68,44 +68,44 @@ nav a {
 }
 
 .logo-name{
-  font-size: 24px;
+  font-size: 1.5rem;
   color: white;
 }
 
 .profile{
   display: block;
-  padding: 195px 0 0 120px;
+  padding: 12.1875rem 0 0 7.5rem;
 }
 
 .profile h2{
-  font-size: 30px;
-  margin-bottom: 0px;
+  font-size: 1.875rem;
+  margin-bottom: 0rem;
 }
 
 .profile h1{
-  font-size: 105px;
-  margin: 0px;
+  font-size: 6.5625rem;
+  margin: 0rem;
 }
 
 .profile h3 span{
-  font-size: 30px;
+  font-size: 1.875rem;
 }
 
 .A{
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 .hire{
-  margin: 20px 20px 0 0 ;
-  width: 150px;
-  height: 55px;
+  margin: 1.25rem 1.25rem 0 0 ;
+  width: 9.375rem;
+  height: 3.4375rem;
   background-color: #5A7FFB;
   transition: 0ms;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: bold;
   color: white;
   border: none;
-  border-radius: 10px;
+  border-radius: 0.625rem;
 }
 
 .hire:hover{
@@ -118,11 +118,11 @@ nav a {
 }
 
 .main-photo-section img {
-  width: 450px;
-  height: 600px;
+  width: 28.125rem;
+  height: 37.5rem;
   position: absolute;
-  right: 120px;
-  top: 150px;
+  right: 7.5rem;
+  top: 9.375rem;
   border-top-left-radius: 40%;
   border-top-right-radius: 40%;
   border-bottom-left-radius: 40%;
@@ -131,7 +131,7 @@ nav a {
 
 .about-section{
   display: flex;
-  padding: 120px;
+  padding: 7.5rem;
   background-color: #F2F5FB;
   height: 70vh;
 }
@@ -142,19 +142,19 @@ nav a {
 
 .first-image{
   position: relative;
-  width: 400px;
-  height: 429px;
-  border-radius: 10px;
-  left: 100px;
+  width: 25rem;
+  height: 26.8125rem;
+  border-radius: 0.625rem;
+  left: 6.25rem;
   transform: scaleX(-1);
 }
 
 .second-image{
   position: relative;
-  width: 300px;
-  height: 329px;
-  border-radius: 10px;
-  bottom: 200px;
+  width: 18.75rem;
+  height: 20.5625rem;
+  border-radius: 0.625rem;
+  bottom: 12.5rem;
 }
 
 .about-text-section{
@@ -167,8 +167,8 @@ nav a {
 
 .about-text-section p{
   color: #615978;
-  font-size: 18px;
-  line-height: 30px;
+  font-size: 1.125rem;
+  line-height: 1.875rem;
 }
 
 .about-grid-section{
@@ -182,7 +182,7 @@ nav a {
 
 .things-i-know{
   width: 100%;
-  height: 275px;
+  height: 17.1875rem;
   background-color: #1A2540;
 }
 
@@ -197,7 +197,7 @@ nav a {
 
 .logos {
   overflow: hidden;
-  padding: 60px 0;
+  padding: 3.75rem 0;
   white-space: nowrap;
   position: relative;
 }
@@ -205,9 +205,9 @@ nav a {
 .logos:before,
 .logos:after {
   position: absolute;
-  top: 10px;
-  width: 225px;
-  height: 285px;
+  top: 0.625rem;
+  width: 14.0625rem;
+  height: 17.8125rem;
   content: "";
   z-index: 2;
 }
@@ -232,60 +232,60 @@ nav a {
 }
 
 .logos-slide img {
-  width: 80px;
-  height: 80px;
-  margin: 0 70px;
-  border-radius: 8px;
+  width: 5rem;
+  height: 5rem;
+  margin: 0 4.375rem;
+  border-radius: 0.5rem;
 }
 
 .logos-text{
-  padding-top: 20px;
+  padding-top: 1.25rem;
   font-size: larger;
   font-weight: 500;
   color: white;
 }
 
 .logos-text span{
-  width: 80px;
+  width: 5rem;
   position: relative;
-  margin: 0px 83px;
+  margin: 0rem 5.1875rem;
 }
 
 .logos-text .span2{
-  margin-right: 65px;
+  margin-right: 4.0625rem;
 }
 
 .logos-text .span3{
-  margin-right: 58px;
+  margin-right: 3.625rem;
 }
 
 .logos-text .span4{
-  margin-right: 62px;
+  margin-right: 3.875rem;
 }
 
 .logos-text .span5{
-  margin-right: 70px;
+  margin-right: 4.375rem;
 }
 
 .logos-text .span6{
-  margin-right: 66px;
+  margin-right: 4.125rem;
 }
 
 .logos-text .span7{
-  margin-right: 68px;
+  margin-right: 4.25rem;
 }
 
 .logos-text .span8{
-  margin-right: 70px;
+  margin-right: 4.375rem;
 }
 
 .portfolio{
-  padding: 120px;
+  padding: 7.5rem;
 }
 
 .getintouch-section h2{
   text-align: center;
-  margin-bottom: 90px;
+  margin-bottom: 5.625rem;
 }
 
 /* .getintouch-section h3 ::before{
@@ -293,7 +293,7 @@ nav a {
   content: "";
   width: 0;
   height: 0;
-  border: 8px solid transparent;
+  border: 0.5rem solid transparent;
   border-bottom-color: solid #5A7FFB;
 }
 
@@ -302,92 +302,96 @@ nav a {
   content: "";
   width: 0;
   height: 0;
-  border: 8px solid transparent;
+  border: 0.5rem solid transparent;
   border-bottom-color: solid #5A7FFB;
 } */
 
 .getintouch-section{
-  padding-top: 70px;
+  padding-top: 4.375rem;
 }
 
 .getintouch-section h2{
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: 750;
 }
 
 .getintouch-section-contact{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 0 120px 120px 120px;
+  padding: 0 7.5rem 7.5rem 7.5rem;
 }
 
 .getintouch-section-contact iframe{
-  width: 600px;
-  height: 450px;
-  margin-right: 50px;
+  width: 37.5rem;
+  height: 28.125rem;
+  margin-right: 3.125rem;
 }
 
 .contact h1{
-  margin: 0 0 40px 0;
-  font-size: 40px;
+  margin: 0 0 2.5rem 0;
+  font-size: 2.5rem;
   font-weight: 800;
 }
 
 .message{
-  width: 570px;
-  height: 180px;
-  padding: 15px;
-  border: 1px solid #615978;
-  border-radius: 5px;
+  width: 35.625rem;
+  height: 11.25rem;
+  padding: 0.9375rem;
+  border: 0.0625rem solid #615978;
+  border-radius: 0.3125rem;
 }
 
 .text{
-  padding: 0 10px;
-  width: 270px;
-  height: 40px;
-  margin-right: 10px;
-  margin-bottom: 15px;
-  border: 1px solid #615978;
-  border-radius: 5px;
+  padding: 0 0.625rem;
+  width: 16.875rem;
+  height: 2.5rem;
+  margin-right: 0.625rem;
+  margin-bottom: 0.9375rem;
+  border: 0.0625rem solid #615978;
+  border-radius: 0.3125rem;
 }
 
 .contact button{
-  width: 200px;
-  border-radius: 5px;
+  width: 12.5rem;
+  border-radius: 0.3125rem;
 }
 
 .footer-section{
-  height: 360px;
+  height: 22.5rem;
   background-image: url("https://img.freepik.com/free-vector/blue-data-technology-background-vector-with-binary-code_53876-110871.jpg");
   text-align: center;
-  padding: 40px;
+  padding: 2.5rem;
 }
 
 .footer-section-photos{
   display: flex;
-  padding-left: 650px;
-  margin: 100px 0 100px 0;
+  padding-left: 40.625rem;
+  margin: 6.25rem 0 6.25rem 0;
 }
 
 .footer-section-photos img{
-  width: 25px;
-  height: 25px;
-  margin-right: 30px;
+  width: 1.5625rem;
+  height: 1.5625rem;
+  margin-right: 1.875rem;
 }
 
 .copyright{
-  font-size: 18px;
+  font-size: 1.125rem;
   color: #615978;
-  padding-left: 10px;
+  padding-left: 0.625rem;
 }
 
 .footer-section a button{
   background-color: #5A7FFB;
   border: none;
-  width: 60px;
-  height: 60px;
+  width: 3.75rem;
+  height: 3.75rem;
   border-radius: 50%;
   position: relative;
-  left: 630px;
-  bottom: 70px;
+  left: 39.375rem;
+  bottom: 4.375rem;
+}
+
+.go-up{
+  width: 1.875rem
 }
