@@ -410,7 +410,9 @@ nav a {
 }
 
 @media screen and (max-width: 600px) {
-
+ .html{
+    overflow-x: hidden;
+  }
   .home{
     background-image: url("https://wavang.com/image/hero_pattern.jpg");
     color: white;
