@@ -497,10 +497,6 @@ nav a {
     border-radius: 0.625rem;
   }
   
-  .hireme a{
-    display: block;
-  }
-
   .hire:hover{
     background-color: rgb(65, 65, 236);
     transition-duration: 200ms;
