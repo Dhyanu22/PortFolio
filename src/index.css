@@ -536,11 +536,13 @@ nav a {
   }
 
   .first-image{
-    width: 16rem;
+    width: 14rem;
+    height: 18rem;
   }
 
   .second-image{
-    width: 14rem;
+    width: 12rem;
+    height: 16rem;
   }
 
   .about-text-section{
