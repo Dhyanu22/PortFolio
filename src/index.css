@@ -514,8 +514,8 @@ nav a {
   }
 
   .main-photo-section img {
-    width: 400px;
-    height: 555px;
+    width: 340px;
+    height: 505px;
     display: block;
     position: absolute;
     top: 50%;
@@ -536,11 +536,11 @@ nav a {
   }
 
   .first-image{
-    width: 20rem;
+    width: 16rem;
   }
 
   .second-image{
-    width: 16rem;
+    width: 14rem;
   }
 
   .about-text-section{
